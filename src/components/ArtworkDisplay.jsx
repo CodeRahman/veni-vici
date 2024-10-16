@@ -13,14 +13,13 @@ const ArtworkDisplay = ({ data}) => {
       <p> </p>
       <a href={hdurl} target='_blank'>HD: {hdurl || "No HD url"}</a> 
       <p> </p>
-      <a href={url} target='_blank'>URL: {url || 'This is a video, see link below'}</a>
-      <a href={thumbnail_url} target='_blank'>{thumbnail_url}</a>
+      <a href={url} target='_blank'>URL: {url}</a>
       <div className="statsBox">
         <p className="stats">
           Explanation: {explanation}
         </p>
         <p className="stats">
-          Copyright: {copyright || 'No copyright'}
+          Copyright: {copyright}
         </p>
       </div>
     </div>
