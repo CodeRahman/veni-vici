@@ -1,10 +1,10 @@
-# Web Development Project 4 - *Name of App Here*
+# Web Development Project 4 - *Astronomy Pictures*
 
-Submitted by: **Your Name Here**
+Submitted by: **Abdurrahman Oyediran**
 
-This web app: **insert description**
+This web app: **uses a NASA web API to display Astronomy Pictures**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
