@@ -9,17 +9,17 @@ const ArtworkDisplay = ({ data}) => {
     <div className="ArtArea">
       <h2>{title}</h2>
       <h4>Date: {date}</h4>
-      <img src={hdurl || url || thumbnail_url} alt={title} width={300} height={300} />
+      <img className="imag" src={hdurl || url || thumbnail_url} alt={title} width={300} height={300} />
       <p> </p>
-      <a href={hdurl} target='_blank'>HD: {hdurl || "No HD url"}</a> 
-      <p> </p>
-      <a href={url} target='_blank'>URL: {url}</a>
+      <div className='images'>
+        <button className='hdimage'><a href={hdurl} target='_blank'>View Image HD</a></button> 
+        <p> </p>
+        <button className='image'><a href={url} target='_blank'>View Image</a></button>
+      </div>
+      
       <div className="statsBox">
         <p className="stats">
           Explanation: {explanation}
-        </p>
-        <p className="stats">
-          Copyright: {copyright}
         </p>
       </div>
     </div>

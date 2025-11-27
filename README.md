@@ -1,14 +1,13 @@
-# Web Development Project 4 - *Astronomy Pictures*
+# *Astronomy Pictures*
 
-Submitted by: **Abdurrahman Oyediran**
+Developer: **Abdurrahman Oyediran**
 
-This web app: **uses a NASA web API to display Astronomy Pictures**
+This web app **uses a NASA web API to display Astronomy Pictures**
 
 Time spent: **6** hours spent in total
 
-## Required Features
+## Features
 
-The following **required** functionality is completed:
 
 - [x] **Clicking a button creates a new API fetch request and displays at least three attributes from the returned JSON data**
 - [x] **Only one item/API call is viewable at a time**
